@@ -1,0 +1,142 @@
+/* default css start */
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.small-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.t-c {
+    text-align: center;
+}
+
+.t-l {
+    text-align: left;
+}
+
+.t-r {
+    text-align: right;
+}
+
+.d-f {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.heading {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.default-button {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    padding: 15px 30px;
+}
+
+.accent-color {
+    color: #E55473;
+}
+
+.accent-bg {
+    background-color: #FCEEF1;
+}
+
+.logo {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.container{
+    padding:0px 190px;
+}
+/* default css end */
+
+/* header css start  */
+header {
+    background-color: #FCEEF1;
+    border-bottom: 1px solid #272727;
+}
+
+header nav {
+    padding: 15px 0px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu .menu-item {
+    margin-left: 25px;
+}
+
+.menu .menu-item a {
+    text-decoration: none;
+    color: rgba(39, 39, 39, 0.60);
+    ;
+}
+
+/* header css end */
+
+/* banner css start  */
+.banner-section{
+   padding: 50px 0px 0px;
+}
+
+.banner-left{
+    width: 50%;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-left>.paragraph{
+    padding: 20px 0px;
+}
+
+.banner-right{
+    display: flex;
+    align-items: end;
+}
+
+.banner-image{
+    width: 450px;
+}
+/* banner css end */
