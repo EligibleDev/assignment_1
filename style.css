@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+i{
+    cursor: pointer;
+}
+
 .paragraph {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -19,8 +23,8 @@
     line-height: normal;
 }
 
-.section{
-    padding: 75px 0px ;
+.section {
+    padding: 75px 0px;
     margin-bottom: 100px;
 }
 
@@ -65,6 +69,7 @@
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
     border: none;
     padding: 15px 30px;
 }
@@ -81,12 +86,14 @@
     color: #000000;
     font-size: 48px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .logo-white {
     color: #ffffff;
     font-size: 48px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .container {
@@ -179,7 +186,7 @@ header nav {
     background-color: #E3EBDB;
 }
 
-.product-block >.heading{
+.product-block>.heading {
     padding-top: 25px;
 }
 
@@ -216,38 +223,82 @@ header nav {
     font-weight: 600;
     line-height: 35px;
 }
+
 /* features css end */
 
 /* hot-deals css start  */
-.hot-deals{
+.hot-deals {
     background-color: #FEF6F8;
     margin-bottom: 0;
 }
 
-.hot-deals .hot-left>.paragraph{
+.hot-deals .hot-left>.paragraph {
     padding: 20px 0px;
 }
+
 /* hot-deals css end */
 
 /* instagram css start  */
-.instagram{
+.instagram {
     margin-bottom: 25px !important;
 }
-.instagram .paragraph{
+
+.instagram .paragraph {
     padding: 20px 0px 35px;
 }
 
-.feed-block{
+.feed-block {
     width: 23.5%;
 }
 
-.feed-block> img{
+.feed-block>img {
     width: 100%;
 }
+
 /* instagram css end  */
 
+/* product css start  */
+.carosel-icon{
+    font-size: 35px;
+    color: #ffffff;
+    background-color: #E55473;
+    padding: 5px;
+    border-radius: 3.5px;
+}
+
+
+.products>.paragraph {
+    padding: 20px 0px;
+}
+
+.product-card {
+    border: 2px solid #E55473;
+    width: 29%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.product-card > img{
+    width: 300px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px 5px 15px 15px;
+    padding: 10px 0px;
+}
+
+.price>i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #E55473;
+}
+/* product css end  */
+
 /* newslater css start  */
-.newslater{
+.newslater {
     background-image: url('./assets/Rectangle\ 9.png');
     background-size: cover;
     background-position: center center;
@@ -255,37 +306,39 @@ header nav {
     border-radius: 5px;
 }
 
-.newslater>.paragraph{
+.newslater>.paragraph {
     padding: 20px 0px 35px;
 }
 
-.newslater-form{
+.newslater-form {
     justify-content: center;
     align-items: center;
 }
 
-.form-email{
+.form-email {
     border-radius: 8px;
     background: #FFF;
-    border: none; 
-    padding: 18px 300px 18px 30px; 
+    border: none;
+    padding: 18px 300px 18px 30px;
     margin-right: 5px;
 }
+
 /* newslater css end */
 
 /* footer css start  */
-footer{
+footer {
     background: #111010;
     color: #ffffff !important;
     margin-bottom: 0px !important;
 }
 
-footer>.paragraph{
+footer>.paragraph {
     color: rgba(255, 255, 255, 0.90);
     padding: 20px 0px;
 }
 
-footer>.small-text{
+footer>.small-text {
     color: rgba(255, 255, 255, 0.40);
 }
+
 /* footer css end */
