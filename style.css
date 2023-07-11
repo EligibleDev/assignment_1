@@ -19,6 +19,11 @@
     line-height: normal;
 }
 
+.section{
+    padding: 75px 0px ;
+    margin-bottom: 100px;
+}
+
 .t-c {
     text-align: center;
 }
@@ -87,8 +92,6 @@
 /* header css start  */
 header {
     background-color: #FCEEF1;
-    border-bottom: 1px solid #272727;
-
 }
 
 header nav {
@@ -162,12 +165,16 @@ header nav {
     align-items: center;
 }
 
-#pi2 >img {
+#pi2>img {
     width: 300px;
 }
 
 #pi3 {
     background-color: #E3EBDB;
+}
+
+.product-block >.heading{
+    padding-top: 25px;
 }
 
 .product-image {
@@ -176,34 +183,82 @@ header nav {
     border-radius: 300px 300px 0px 0px;
     display: flex;
     justify-content: center;
-    align-items:end;
+    align-items: end;
 }
 
 .product-image>img {
     width: 250px;
 }
+
 /* products css end */
 
 /* features css start  */
-.features{
+.features {
     background-color: #F4F4F4;
-    padding: 75px 0px;
     display: flex;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
     justify-content: space-around;
 }
 
-.features-block{
+.features-block {
     width: 33%;
 }
 
-.features-block > .paragraph{
-color: rgba(39, 39, 39, 0.80);
-font-style: normal;
-font-weight: 600;
-line-height: 35px;
+.features-block>.paragraph {
+    color: rgba(39, 39, 39, 0.80);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+/* features css end */
+
+/* hot-deals css start  */
+.hot-deals{
+    background-color: #FEF6F8;
 }
 
+.hot-deals .hot-left>.paragraph{
+    padding: 20px 0px;
+}
+/* hot-deals css end */
 
+/* instagram css strat  */
+.instagram .paragraph{
+    padding: 20px 0px 35px;
+}
 
-/* features css end */
+.feed-block{
+    width: 23.5%;
+}
+
+.feed-block> img{
+    width: 100%;
+}
+/* instagram css end  */
+
+/* newslater css start  */
+.newslater{
+    background-image: url('./assets/Rectangle\ 9.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.newslater>.paragraph{
+    padding: 20px 0px 35px;
+}
+
+.newslater-form{
+    justify-content: center;
+    align-items: center;
+}
+
+.form-email{
+    border-radius: 8px;
+    background: #FFF;
+    border: none; 
+    padding: 18px 300px 18px 30px; 
+    margin-right: 5px;
+}
+/* newslater css end */
