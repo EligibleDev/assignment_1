@@ -83,6 +83,12 @@
     font-weight: 800;
 }
 
+.logo-white {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+}
+
 .container {
     padding: 0px 190px;
 }
@@ -215,6 +221,7 @@ header nav {
 /* hot-deals css start  */
 .hot-deals{
     background-color: #FEF6F8;
+    margin-bottom: 0;
 }
 
 .hot-deals .hot-left>.paragraph{
@@ -223,6 +230,9 @@ header nav {
 /* hot-deals css end */
 
 /* instagram css strat  */
+.instagram{
+    margin-bottom: 25px !important;
+}
 .instagram .paragraph{
     padding: 20px 0px 35px;
 }
@@ -262,3 +272,20 @@ header nav {
     margin-right: 5px;
 }
 /* newslater css end */
+
+/* footer css start  */
+footer{
+    background: #111010;
+    color: #ffffff !important;
+    margin-bottom: 0px !important;
+}
+
+footer>.paragraph{
+    color: rgba(255, 255, 255, 0.90);
+    padding: 20px 0px;
+}
+
+footer>.small-text{
+    color: rgba(255, 255, 255, 0.40);
+}
+/* footer css end */
