@@ -171,7 +171,6 @@ header nav {
 }
 
 .product-image {
-    /* padding: 125px 84px 0px; */
     height: 425px;
     width: 367px;
     border-radius: 300px 300px 0px 0px;
@@ -183,5 +182,28 @@ header nav {
 .product-image>img {
     width: 250px;
 }
-
 /* products css end */
+
+/* features css start  */
+.features{
+    background-color: #F4F4F4;
+    padding: 75px 0px;
+    display: flex;
+    margin-bottom: 75px;
+    justify-content: space-around;
+}
+
+.features-block{
+    width: 33%;
+}
+
+.features-block > .paragraph{
+color: rgba(39, 39, 39, 0.80);
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+}
+
+
+
+/* features css end */
